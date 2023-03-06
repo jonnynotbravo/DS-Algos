@@ -8,13 +8,10 @@
 
 // Return k after placing the final result in the first k slots of nums.
 
-
-// Do not allocate extra space for another array. 
+// Do not allocate extra space for another array.
 // You must do this by modifying the input array in -place with O(1) extra memory.
 
 // If all assertions pass, then your solution will be accepted.
-
- 
 
 // Example 1:
 
@@ -30,3 +27,14 @@
 // Explanation: Your function should return k = 5, with the first five elements of nums containing 0, 0, 1, 3, and 4.
 // Note that the five elements can be returned in any order.
 // It does not matter what you leave beyond the returned k (hence they are underscores).
+
+//Answer One
+var removeElement = function (nums, val) {
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] == val) {
+      nums.splice(i, 1);
+      i--;
+    }
+  }
+  return nums.length;
+};
