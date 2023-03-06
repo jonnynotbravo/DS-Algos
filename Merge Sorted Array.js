@@ -28,3 +28,25 @@
 // Explanation: The arrays we are merging are [] and [1].
 // The result of the merge is [1].
 // Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
+
+//Answer One
+var merge = function (nums1, m, nums2, n) {
+  let first = m - 1;
+  let second = n - 1;
+  let third = m + n - 1;
+
+  for (let i = third; i >= 0; i--) {
+    if (second < 0) {
+      break;
+    }
+
+    if (nums1[first] > nums2[second]) {
+      nums1[i] = nums1[first];
+      first--;
+    } else {
+      nums1[i] = nums2[second];
+      second--;
+    }
+  }
+  return nums1;
+};
