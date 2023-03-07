@@ -9,9 +9,8 @@
 
 // Return k after placing the final result in the first k slots of nums.
 
-// Do not allocate extra space for another array. 
+// Do not allocate extra space for another array.
 // You must do this by modifying the input array in -place with O(1) extra memory.
-
 
 // Example 1:
 
@@ -28,3 +27,17 @@
 // Explanation: Your function should return k = 5, with the first five elements of
 // nums being 0, 1, 2, 3, and 4 respectively.
 // It does not matter what you leave beyond the returned k (hence they are underscores).
+
+//Answer One
+var removeDuplicates = function (nums) {
+  let first = 0;
+  let second = 0;
+
+  for (let i = second; i < nums.length; i++) {
+    if (nums[first] !== nums[i]) {
+      first++;
+      nums[first] = nums[i];
+    }
+  }
+  return first + 1;
+};
