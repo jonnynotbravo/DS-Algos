@@ -14,7 +14,7 @@
 // Sample Output
 // true
 
-//Answer
+//Answer:
 function isValidSubsequence(array, sequence) {
   let arrayIdx = 0;
   let sequenceIdx = 0;
