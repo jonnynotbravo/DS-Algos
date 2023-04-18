@@ -18,7 +18,7 @@
 //Sample Output
 // [-1,-11]
 
-//Answer one
+//Answer:
 function twoNumberSum(array, targetSum) {
   for (let i = 0; i < array.length; i++) {
     let currentNum = array[i];
