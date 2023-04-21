@@ -29,7 +29,7 @@
 // The result of the merge is [1].
 // Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
 
-//Answer One
+//Answer:
 var merge = function (nums1, m, nums2, n) {
   let first = m - 1;
   let second = n - 1;

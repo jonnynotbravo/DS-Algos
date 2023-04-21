@@ -13,7 +13,7 @@
 // Input: ["1, 3, 9, 10, 17, 18", "1, 4, 9, 10"]
 // Output: 1,9,10
 
-// Answer One
+// Answer:
 function FindIntersection(strArr) {
   let array = [];
   const first = strArr[0].split(", ");

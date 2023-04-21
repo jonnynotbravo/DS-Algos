@@ -37,7 +37,7 @@
 // --X: X is decremented by 1, X = 2 - 1 = 1.
 // X--: X is decremented by 1, X = 1 - 1 = 0.
 
-//Answer
+//Answer:
 var finalValueAfterOperations = function (operations) {
   let result = 0;
 

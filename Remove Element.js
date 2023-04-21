@@ -28,7 +28,7 @@
 // Note that the five elements can be returned in any order.
 // It does not matter what you leave beyond the returned k (hence they are underscores).
 
-//Answer One
+//Answer:
 var removeElement = function (nums, val) {
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] == val) {
