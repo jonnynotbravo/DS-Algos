@@ -16,7 +16,7 @@
 // Output: false
 // Explanation: There is no i and j that satisfy the conditions.
 
-//Answer one
+//Answer:
 var checkIfExist = function (arr) {
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr.length; j++) {

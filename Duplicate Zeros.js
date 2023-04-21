@@ -16,7 +16,7 @@
 // Output: [1,2,3]
 // Explanation: After calling your function, the input array is modified to: [1,2,3]
 
-//Answer One
+//Answer:
 var duplicateZeros = function (arr) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === 0) {

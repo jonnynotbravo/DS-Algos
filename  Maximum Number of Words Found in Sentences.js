@@ -21,7 +21,7 @@
 // Explanation: It is possible that multiple sentences contain the same number of words.
 // In this example, the second and third sentences (underlined) have the same number of words.
 
-//Answer
+//Answer:
 var mostWordsFound = function (sentences) {
   let array = [];
 
