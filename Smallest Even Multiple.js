@@ -12,7 +12,7 @@
 // Output: 6
 // Explanation: The smallest multiple of both 6 and 2 is 6. Note that a number is a multiple of itself.
 
-//Answer
+//Answer:
 var smallestEvenMultiple = function (n) {
   if (n % 2 === 0) {
     return n;
