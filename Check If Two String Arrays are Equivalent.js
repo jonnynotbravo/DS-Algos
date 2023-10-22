@@ -28,3 +28,4 @@ var arrayStringsAreEqual = function (word1, word2) {
 
   return wordOne === wordTwo;
 };
+

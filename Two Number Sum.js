@@ -33,4 +33,8 @@ function twoNumberSum(array, targetSum) {
   return [];
 }
 
+return twoNumberSum;
+
+
+
 
