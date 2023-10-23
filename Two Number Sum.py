@@ -26,12 +26,11 @@ def two_number_sum(arr, targetSum):
         # x + y = targetSum
         # arr[i] + y = targetSum
         # y = targetSum - arr[i]
-        # |                | 
+        # |                |
 
         if targetSum - arr[i] in obj:
             return [targetSum - arr[i], arr[i]]
-        else: 
+        else:
             obj[arr[i]] = True
-    
-    return []
 
+    return []
