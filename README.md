@@ -1,1 +1,1 @@
-<p>This are solutions for data structures and alogrithms done in JavaScript and Python</p>
+<p>This are solutions for data structures and algorithms questions done in JavaScript and Python!</p>
