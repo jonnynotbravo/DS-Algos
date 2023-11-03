@@ -16,7 +16,7 @@
 // 1 <= arr1[i], arr2[i], arr3[i] <= 2000
 
 const arraysIntersection = (arr1, arr2, arr3) => {
-  result = [];
+  let result = [];
 
   for (element of arr1) {
     if (arr2.includes(element) && arr3.includes(element)) {
