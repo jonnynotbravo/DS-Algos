@@ -26,7 +26,6 @@
 # 1 <= s.length <= 2 * 105
 # s consists only of printable ASCII characters.
 
-
 def isPalindrome(s):
 
     alphabet = 'abcdefghijklmnopqrstuvwxyz0123456789'
