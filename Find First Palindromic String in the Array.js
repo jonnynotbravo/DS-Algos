@@ -26,14 +26,13 @@
 // words[i] consists only of lowercase English letters.
 
 const firstPalindrome = (words) => {
-    
-    for (let word of words) {
-        let current_reversed = word.split('').reverse().join('')
+  for (let word of words) {
+    let current_reversed = word.split("").reverse().join("");
 
-        if (current_reversed === word) {
-            return current_reversed
-        }
+    if (current_reversed === word) {
+      return current_reversed;
     }
+  }
 
-    return ''
+  return "";
 };
