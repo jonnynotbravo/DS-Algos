@@ -18,7 +18,6 @@
 
 
 def average(salary):
-
     sum = 0
     maximum = max(salary)
     minimum = min(salary)
